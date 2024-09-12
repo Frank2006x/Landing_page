@@ -10,7 +10,7 @@ body {
   height: 100vh;
   /* display: flex; */
   margin: 0;
-  overflow: hidden;
+  overflow-y:auto;
   font-family: Roboto, sans-serif;
 }
 
@@ -54,4 +54,8 @@ body {
 .sign{
     border-radius: 15%;
     padding: 5px;
+}
+.some_random_fact{
+    display: flex;
+    justify-content: space-evenly;
 }

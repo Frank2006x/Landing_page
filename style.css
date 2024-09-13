@@ -54,8 +54,48 @@ body {
 .sign{
     border-radius: 15%;
     padding: 5px;
+    color:white; 
+    background-color: #3882F6;
+    padding: 6px 10px;
+    font-size: 20px;
+    border-radius:10px;
+    margin-top: 10px;
+    border: #F9FAF8 1.5px solid;
+    
 }
 .some_random_fact{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+.text{
+    padding-top: 20px;
+    max-width: 200px;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 100px 300px;
+}
+.sign-up{
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 200px;
+    border-radius: 12px;
+    min-height: 120px;
+    color: white;
+    margin-bottom: 100px;
+}
+.footer{
+    background-color:#1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
 }

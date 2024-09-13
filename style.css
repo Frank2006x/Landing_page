@@ -71,6 +71,7 @@ body {
 .text{
     padding-top: 20px;
     max-width: 200px;
+    font-family:'Courier New', Courier, monospace;
 }
 .quote{
     background-color: #E5E7EB;
@@ -98,4 +99,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px 50px;
+}
+.img{
+    border-radius: 15px;
 }
